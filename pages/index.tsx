@@ -7,7 +7,9 @@ export default function Home() {
   return (
     <Layout>
       <VStack align="start" spacing={4} mb={16}>
-        <Heading>Hi, I'm Rajat</Heading>
+        <Heading>Hi, I'm Rajat <chakra.span fontSize="3xl">👋
+          </chakra.span>
+        </Heading>
         <Text>I am a developer, creator and entrepreneur.
             During the normal business hours, I work at <Link href="https://www.oncehub.com">
             Oncehub
@@ -45,7 +47,10 @@ export default function Home() {
       </VStack>
 
       <VStack align="start" spacing={4} mb={16}>
-        <Heading size="lg">Resources For Solopreneurs</Heading>
+        <Heading size="lg">Resources For Solopreneurs <chakra.span fontSize="xl">
+            🚀
+          </chakra.span>
+        </Heading>
         <Text>
           I have gathered various resources from all over the web and put those into some easy to browse lists.
           Click any of the following links to see the resources.
@@ -67,7 +72,10 @@ export default function Home() {
       </VStack>
 
       <VStack align="start" spacing={4}>
-        <Heading size="lg">Need more?</Heading>
+        <Heading size="lg">Need more? <chakra.span fontSize="xl">
+            🎁
+          </chakra.span>
+        </Heading>
         <Text>
           For serious folks, I offer a paid newsletter where I share
           my own learnings about developing, deploying and marketing tech products.

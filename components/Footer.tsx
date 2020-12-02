@@ -5,8 +5,8 @@ export default function Footer({}) {
         <Flex justify="center">
             <Text
                 fontSize="sm"
-                color="gray.400">
-                Copyright (c) 2020.
+                color="gray.500">
+                Copyright © 2020 Rajat Saxena.
             </Text>
         </Flex>
     )
