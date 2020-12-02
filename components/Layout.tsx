@@ -10,7 +10,7 @@ export default function Layout({ children }) {
             p={4}>
             <Header />
 
-            <Box w="100%" mt="72px" minH="80vh">
+            <Box w="100%" mt="2rem" minH="80vh">
                 {children}
             </Box>
 

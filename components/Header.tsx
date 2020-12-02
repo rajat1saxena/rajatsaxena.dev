@@ -9,18 +9,14 @@ export default function Header({}) {
                 <link rel="icon" href="/rajat.webp" />
             </Head>
 
-            <HStack mt={2}>
-                <Link href="/">
-                    <Avatar
-                        name="Rajat Saxena"
-                        src="/rajat.webp"
-                        size="md"/>
-                </Link>
-            </HStack>
+            <Link href="/">
+                <Avatar
+                    name="Rajat Saxena"
+                    src="/rajat.webp"
+                    size="md"/>
+            </Link>
             <Spacer />
-            <HStack>
-                <Link href="https://solopreneur.substack.com/">Newsletter</Link>
-            </HStack>
+            <Link href="https://solopreneur.substack.com/">Newsletter</Link>
         </Flex>
     )
 }
